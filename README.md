@@ -19,7 +19,7 @@ The pipeline uses the following GCP services:
 ## Project Structure
 
 ```
-airline-pipeline/
+bts-data-pipeline/
 ├── src/                    # Source code for the pipeline
 │   └── airline_pipeline.py
 ├── functions/              # Cloud Functions code
@@ -58,12 +58,12 @@ chmod +x jupyter-install.sh
 
 ```bash
 # Create local project structure
-mkdir -p airline-pipeline/{src,functions,notebooks,configs}
+mkdir -p bts-data-pipeline/{src,functions,notebooks,configs}
 
 # Copy the scripts we created to the appropriate directories
-  ## Save the python code to airline-pipeline/src/airline_pipeline.py
-  ## Save the cloud function code to airline-pipeline/functions/main.py
-  ## Save the notebook to airline-pipeline/notebooks/analysis_notebook.ipynb
+  ## Save the python code to bts-data-pipeline/src/airline_pipeline.py
+  ## Save the cloud function code to bts-data-pipeline/functions/main.py
+  ## Save the notebook to bts-data-pipeline/notebooks/analysis_notebook.ipynb
 
 # Run the deployment script
 chmod +x deploy-pipeline.sh
