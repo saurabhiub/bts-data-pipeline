@@ -187,12 +187,10 @@ curl -X POST \
 
 ## License
 
-This project is licensed under the individual owning this repository.
+This project is licensed under the individual owning this repository - Saurabh Verma.
 
 ## References
 
 - [Bureau of Transportation Statistics](https://www.transtats.bts.gov/)
 - [MongoDB Documentation](https://www.mongodb.com/docs/)
 - [Google Cloud Documentation](https://cloud.google.com/docs)
-
-
